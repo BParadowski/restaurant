@@ -1,4 +1,5 @@
-export default function renderHome(){
+let homePage;
+export default homePage = (function (){
 
     const home = document.createElement('div');
     home.classList.add('home');
@@ -29,4 +30,4 @@ export default function renderHome(){
     home.appendChild(restaurantName);
     home.appendChild(restaurantDesc);
     return home;
-}
+})();
