@@ -175,6 +175,15 @@ body{
     }
 }
 
+.contact{
+    background-color: var(--light-gray);
+    padding: 2rem;
+    font-size: 1.4rem;
+    line-height: 2;
+    letter-spacing: 0.1rem;
+    align-self: center;
+    white-space: pre-line;
+}
 @media only screen and (max-width: 1200px) {
     .home {
       grid-template-columns: 1fr 1fr;
